@@ -1,0 +1,92 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+/*VARIABLES*/
+:root{
+    --bright-red: hsl(12, 88%, 59%);
+    --light-red: #f98f75;
+    --very-light-red: #fff0eb;
+    --dark-blue: hsl(228, 39%, 23%);
+    --dark-grayish-blue: hsl(227, 12%, 61%);
+    --Very-dark-blue: hsl(233, 12%, 13%);
+    --Very-pale-red: hsl(13, 100%, 96%);
+    --Vary-light-gray: hsl(0, 0%, 98%);
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-700: 700;
+}
+
+/*reset default properties and values*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    overflow-x: hidden;
+}
+body{
+    font-size: 16px;
+}
+.bg-img{
+    border-radius:40% 30% 47% 49% / 0% 0% 17% 16% ;
+    background-color: var(--very-light-red);
+    position: absolute;
+    z-index: -1;
+}
+.bg-img-right{
+    transform: rotate(45deg);
+    left: 50%;
+    top: -10%;
+}
+.bg-img-left{
+    transform: rotate(220deg); 
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--dark-grayish-blue);
+}
+.item.button{  
+    display:block;
+    padding: 15px 35px;
+}
+.item.button:hover{
+    background-color: var(--light-red) !important;
+}
+.white-color{
+    color: var(----Vary-light-gray) !important;
+}
+.red-btn{
+    background-color: var(--bright-red) !important;
+    color: var(--Vary-light-gray) !important;    
+    border-radius: 50rem;
+    padding: 2% 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media all and (min-width:1060px){
+    .container{
+        margin: auto 100px;
+    }
+}

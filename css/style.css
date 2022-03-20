@@ -26,6 +26,7 @@ body, html{
     overflow-x: hidden;
 }
 body{
+    font-family: 'Be Vietnam Pro', sans-serif; 
     font-size: 16px;
 }
 .bg-img{
@@ -41,6 +42,14 @@ body{
 }
 .bg-img-left{
     transform: rotate(220deg); 
+}
+h1{
+    font-size: 45px;
+    color: var(--Very-dark-blue);
+}
+p{
+    color: var(--dark-grayish-blue);
+    line-height: 1.5;
 }
 ul{
     list-style-type: none;
@@ -65,11 +74,37 @@ a:hover{
     background-color: var(--bright-red) !important;
     color: var(--Vary-light-gray) !important;    
     border-radius: 50rem;
-    padding: 2% 5%;
+    padding: 4% 7%;
+}
+button.red-btn{
+    border: none;
+    font-weight: var(--font-weight-700);
 }
 
 
-
+/*INTRO*/
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items:  center;
+}
+.intro>div{
+    flex: 1 1 200px;
+}
+.intro-right-top{
+    order:1;
+}
+.intro-right-top>img{
+    width: 90%;
+}
+.intro-left-bottom{
+    margin: 10px 35px;
+    order:2;
+}
+.intro-left-bottom>p{
+    margin: 10px 0 35px 0;
+}
 
 
 

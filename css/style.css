@@ -43,13 +43,23 @@ body{
 .bg-img-left{
     transform: rotate(220deg); 
 }
+h1, h2, h3, h4,h5,h6{
+    color: var(--dark-blue);
+}
 h1{
     font-size: 45px;
-    color: var(--dark-blue);
+}
+h2{
+    font-size: 35px;
 }
 p{
     color: var(--dark-grayish-blue);
-    line-height: 1.5;
+    line-height: 2;
+    margin-top: 15px;
+}
+.text-h3-p{
+    color: var(--dark-blue);
+    font-weight: var(--font-weight-700);
 }
 ul{
     list-style-type: none;
@@ -81,7 +91,7 @@ button.red-btn{
     font-weight: var(--font-weight-700);
 }
 
-
+/* ---------------------------------------------------- */
 /*INTRO*/
 /*mobile*/
 .intro{
@@ -133,15 +143,47 @@ button.red-btn{
         order:1;
     }
 }
+/* ---------------------------------------------------- */
+/*SERVICE*/
+/*mobile*/
+.services{
+    margin: 70px auto;
+}
+.service-right-bottom>div{
+    margin: 50px auto;
+}
+.service-left-top{
+    text-align: center;
+    margin: 10px 35px;
+}
+.service-right-bottom{
+    padding-left: 15px;
+}
+.svr{
+    background-color: var(--very-light-red);
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    height: 41px;
+    margin: 0;
+}
+.svr>span{
+    float: left;
+}
+.text-h3-p{
+    text-align: center;
+}
+.tt{
+    text-align: center;
+    padding: 5px 15px;
+}
+.srv-red-btn{
+    padding: 1% 6%;
+}
 
 
 
 
-
-
-
-
-
+/* ---------------------------------------------------- */
 /*FOOTER*/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

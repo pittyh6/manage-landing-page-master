@@ -45,7 +45,7 @@ body{
 }
 h1{
     font-size: 45px;
-    color: var(--Very-dark-blue);
+    color: var(--dark-blue);
 }
 p{
     color: var(--dark-grayish-blue);
@@ -83,14 +83,16 @@ button.red-btn{
 
 
 /*INTRO*/
+/*mobile*/
 .intro{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     align-items:  center;
+    margin-top: 20px;
 }
 .intro>div{
-    flex: 1 1 200px;
+    flex: 1 1 450px;
 }
 .intro-right-top{
     order:1;
@@ -105,7 +107,32 @@ button.red-btn{
 .intro-left-bottom>p{
     margin: 10px 0 35px 0;
 }
+/*tablet*/
+@media all and (min-width: 468px){
+    .intro-right-top{
+        order:1;
+    }
+    .intro-left-bottom{
+        order:2;
+    }
+}
 
+/*desktop*/
+@media all and (min-width: 768px){
+    .intro{
+        margin-top: 60px;
+    }
+    .intro-right-top{
+        order:2;
+    }
+    .intro-right-top>img{
+        width: 80%;
+    }
+    .intro-left-bottom{
+        padding-right: 35px;
+        order:1;
+    }
+}
 
 
 

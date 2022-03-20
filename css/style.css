@@ -140,6 +140,8 @@ button.red-btn{
     }
     .intro-left-bottom{
         padding-right: 35px;
+        text-align: left;
+        padding: 50px 130px 0 0;
         order:1;
     }
 }
@@ -147,7 +149,12 @@ button.red-btn{
 /*SERVICE*/
 /*mobile*/
 .services{
+    display:flex;
+    flex-wrap: wrap;
     margin: 70px auto;
+}
+.services>div{
+    flex: 1 1 400px;
 }
 .service-right-bottom>div{
     margin: 50px auto;
@@ -179,7 +186,21 @@ button.red-btn{
 .srv-red-btn{
     padding: 1% 6%;
 }
-
+/*tablet*/
+@media all and (min-width: 468px){
+    .svr{
+        height: 45px;
+    }
+}
+@media all and (min-width: 768px){
+    .svr{
+        height: 45px;
+    }
+    .service-left-top{
+        text-align: left;
+        padding: 50px 130px 0 0;
+    }
+}
 
 
 

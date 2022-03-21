@@ -84,13 +84,13 @@ a:hover{
     background-color: var(--bright-red) !important;
     color: var(--Vary-light-gray) !important;    
     border-radius: 50rem;
-    padding: 4% 7%;
+    padding: 20px 40px;
 }
 button.red-btn{
     border: none;
     font-weight: var(--font-weight-700);
 }
-
+/* ---------------------------------------------------- */
 /* ---------------------------------------------------- */
 /*INTRO*/
 /*mobile*/
@@ -145,6 +145,7 @@ button.red-btn{
         order:1;
     }
 }
+/* ---------------------------------------------------- */
 /* ---------------------------------------------------- */
 /*SERVICE*/
 /*mobile*/
@@ -201,9 +202,34 @@ button.red-btn{
         padding: 50px 130px 0 0;
     }
 }
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+/* TESTEMONIAL */
+.testemonials{
+    text-align: center;
+}
+.testemonial{
+    display: flex;
+    flex-wrap:wrap;
+}
+.testemonial > div{
+    flex: 1 1 390px;
+}
+.comment{
+    background-color: var(--Vary-light-gray);
+    padding: 0 35px;
+    margin: 150px 25px 40px;  
+    height: 300px;
+}
+.comment img, .comment p{
+    position: relative;
+    top: -70px;
+}
 
 
 
+
+/* ---------------------------------------------------- */
 /* ---------------------------------------------------- */
 /*FOOTER*/
 .attribution { font-size: 11px; text-align: center; }

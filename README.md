@@ -22,10 +22,12 @@
 * Flexbox
 * git / gitHub
 * jira
+* JQuery
 * Background shapes
 * Responsive
 * Order: mobile, tablet, desktop.
-* Hamburguer menu
+* Hamburguer menu (javaScript)
+* SlideShow/carousel (javaScript)
 
 
 ![End Banner](Documentation/botton-1200x350.gif)

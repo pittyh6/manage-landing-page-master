@@ -277,7 +277,7 @@ button.red-btn{
     color: var(--bright-red)!important;
 
 }
-/*Mobile*/
+/*desktop*/
 @media all and (min-width:768px){
    .team{
        background-image: url(../images/bg-simplify-section-desktop.svg);

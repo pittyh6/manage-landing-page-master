@@ -1,4 +1,5 @@
 # Project Manage Landing Page Master
+## Mobile, tablet and desktop versions.
 
 ![Begin Banner](Documentation/top-1200x350.gif)
 

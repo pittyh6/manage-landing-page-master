@@ -250,8 +250,39 @@ button.red-btn{
         display: none;
     }
 }
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
 
+/*TEAM SECTION*/
+.team{
+    background-color: var(--bright-red);
+    background-image: url(../images/bg-simplify-section-mobile.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:  center;
+    text-align: center;
+    height: 375px;
+    margin-top: 40px;
+}
+.team>div{
+    flex: 1 1 400px;
+}
+.team-left-top>h1{
+    color: var(--Vary-light-gray);
+    padding: 10px 50px;
+}
+.team-right-bottom > button{
+    background-color: var(--Vary-light-gray) !important;
+    color: var(--bright-red)!important;
 
+}
+/*Mobile*/
+@media all and (min-width:768px){
+   .team{
+       background-image: url(../images/bg-simplify-section-desktop.svg);
+   }
+}
 
 /* ---------------------------------------------------- */
 /* ---------------------------------------------------- */

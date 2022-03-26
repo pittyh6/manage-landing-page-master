@@ -14,19 +14,19 @@ $(function(){
 });
 
 const screenWidth = screen.width;
-console.log(screenWidth)
 
 /*carrossel*/
     function moveCarrossel(){       
         let time = 2000,
-        currentCommentMobile = 0,
-        currentCommentDesktop = 3,
-        comments = document.querySelectorAll(".comment"),
-        max = comments.length,
-        dotElement = document.querySelectorAll(".dot") 
+            currentCommentMobile = 0,
+            currentCommentDesktop = 3,
+            comments = document.querySelectorAll(".comment"),
+            max = comments.length,
+            dotElement = document.querySelectorAll(".dot") 
 
         // Mobile Verison
         if(screenWidth <= 768){
+            currentSlide(currentCommentMobile)
             setInterval(()=> {
                 comments[currentCommentMobile]
                     .classList.remove("selected");
@@ -45,7 +45,7 @@ console.log(screenWidth)
                         .classList.add("selected")
 
                 dotElement[currentCommentMobile]
-                        .classList.add("dotClicked");
+                        .classList.add("dotClicked")               
                 }, time) 
         }else{//Desktop Version
             comments[0].classList.add("selected");
@@ -75,10 +75,18 @@ console.log(screenWidth)
            
     }
 
-    function startCarrossel(){
-        // setInterval(()=> {
-        //     nextComment()
-        // }, time)
+    // function currentSlide(n){
+    //    console.log(n)
+    //    let comments = document.querySelectorAll(".comment"),
+    //         currentDot = document.querySelectorAll(".dot");      
+        
+    //     document.querySelector(".selected").classList.remove("selected")
+    //     comments[n].classList.add("selected") 
+    //     currentDot[n].classList.add("dotClicked")    
+
+    // }
+
+    function startCarrossel(){       
         moveCarrossel();
     }   
     function ready() {

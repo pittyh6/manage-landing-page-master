@@ -29,20 +29,6 @@ body{
     font-family: 'Be Vietnam Pro', sans-serif; 
     font-size: 16px;
 }
-.bg-img{
-    border-radius:40% 30% 47% 49% / 0% 0% 17% 16% ;
-    background-color: var(--very-light-red);
-    position: absolute;
-    z-index: -1;
-}
-.bg-img-right{
-    transform: rotate(45deg);
-    left: 50%;
-    top: -10%;
-}
-.bg-img-left{
-    transform: rotate(220deg); 
-}
 h1, h2, h3, h4,h5,h6{
     color: var(--dark-blue);
 }
@@ -105,6 +91,32 @@ a:hover{
 }
 .footer .footer-social-media img:hover{
     filter: invert(47%) sepia(41%) saturate(800%) hue-rotate(320deg) brightness(106%) contrast(95%);
+}
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+/*backgroung img*/
+.bg-img{
+    border-radius:40% 30% 47% 49% / 0% 0% 17% 16% ;
+    background-color: var(--very-light-red);
+    position: absolute;
+    z-index: -1;
+}
+.bg-img-right{
+    transform: rotate(45deg);
+    left: 50%;
+    top: -10%;
+}
+.bg-img-left{
+    transform: rotate(45deg); 
+    left: 75%;
+    top: 40%;
+}
+@media all and (min-width: 768px){
+    .bg-img-left{
+        transform: rotate(220deg); 
+        top: 1050px;
+        left: -180px;
+    }
 }
 /* ---------------------------------------------------- */
 /* ---------------------------------------------------- */

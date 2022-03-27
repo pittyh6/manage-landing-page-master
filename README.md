@@ -6,8 +6,8 @@
 * create a landing page without tutorial, only search on internet document and stack Overflow.
 
 ## Project
+* Live Manage landing page [link](https://pittyh6.github.io/manage-landing-page-master/index.html)
 * Manage landing page [link](https://github.com/pittyh6/manage-landing-page-master)
-* Live Manage landing page [link]()
 
 ## Management Tools
 * Jira(Sprints) [link](https://github.com/pittyh6/manage-landing-page-master/tree/master/Sprint2)

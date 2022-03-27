@@ -28,7 +28,7 @@ const screenWidth = screen.width;
 
         // Mobile Verison
         if(screenWidth <= 768){
-            currentSlide(currentCommentMobile)
+            // currentSlide(currentCommentMobile)
             setInterval(()=> {
                 comments[currentCommentMobile]
                     .classList.remove("selected");

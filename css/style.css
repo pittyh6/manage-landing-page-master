@@ -262,7 +262,7 @@ button.red-btn{
     flex-wrap: wrap;
     align-items:  center;
     text-align: center;
-    height: 375px;
+    height: 425px;
     margin-top: 40px;
 }
 .team>div{
@@ -275,18 +275,69 @@ button.red-btn{
 .team-right-bottom > button{
     background-color: var(--Vary-light-gray) !important;
     color: var(--bright-red)!important;
-
+    margin-bottom: 20px;
 }
 /*desktop*/
 @media all and (min-width:768px){
    .team{
        background-image: url(../images/bg-simplify-section-desktop.svg);
-   }
+       height: 375px;
+    }
+    .team-right-bottom > button{
+        margin-bottom: 0;
+    }
 }
 
 /* ---------------------------------------------------- */
 /* ---------------------------------------------------- */
 /*FOOTER*/
+.footer{
+    background-color: var(--Very-dark-blue);
+    color: var(--Vary-light-gray);
+    text-align: center;
+    padding: 50px 25px; 
+    display: grid;
+    grid-gap: 45px;
+}
+.footer-email>input{
+    border-radius: 50rem;
+    padding: 20px 40px;
+    width: 70%;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    text-align: left;
+    justify-content: space-around;
+}
+.footer-links li{
+    margin-bottom: 20px;
+}
+.footer-links-left{
+    grid-column: 1/2;
+}
+.footer-links-right{
+    grid-column: 2/3;
+}
+.footer-social-media>img{
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+}
+.footer-copyright>p{
+    font-size: 12px;
+    font-weight: var(--font-weight-400);
+}
+
+/*desktop*/
+@media all and (min-width:768px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 

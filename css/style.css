@@ -332,6 +332,9 @@ a:hover{
     padding: 20px 40px;
     width: 70%;
 }
+.footer-email>button{
+    padding: 20px 30px;
+}
 .footer-email>i{
     color: var(--bright-red);
     display: none;

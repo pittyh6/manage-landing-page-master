@@ -21,6 +21,7 @@
 * HTML5
 * CSS
 * Flexbox
+* Grid 
 * git / gitHub
 * jira
 * JQuery

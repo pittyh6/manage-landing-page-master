@@ -87,6 +87,26 @@ button.red-btn{
     font-weight: var(--font-weight-700);
 }
 /* ---------------------------------------------------- */
+/*HOVER elements*/
+a:hover{
+    color: var(--dark-grayish-blue);
+}
+.team button:hover{
+    color: var(--light-red) !important;
+}
+.item.button:hover,
+.intro button:hover,
+.testemonials button:hover,
+.footer .footer-email button:hover{
+    background-color: var(--light-red) !important;
+}
+.footer li a:hover{
+    color: var(--light-red);
+}
+.footer .footer-social-media img:hover{
+    filter: invert(47%) sepia(41%) saturate(800%) hue-rotate(320deg) brightness(106%) contrast(95%);
+}
+/* ---------------------------------------------------- */
 /* ---------------------------------------------------- */
 /*INTRO*/
 /*mobile*/
@@ -300,6 +320,13 @@ button.red-btn{
     padding: 20px 40px;
     width: 70%;
 }
+.footer-email>i{
+    color: var(--bright-red);
+    display: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px 40px;
+}
 .footer-links{
     display: grid;
     grid-template-columns: repeat(2 1fr);
@@ -379,22 +406,3 @@ button.red-btn{
 
 /* ---------------------------------------------------- */
 /* ---------------------------------------------------- */
-/*HOVER*/
-a:hover{
-    color: var(--dark-grayish-blue);
-}
-.team button:hover{
-    color: var(--light-red) !important;
-}
-.item.button:hover,
-.intro button:hover,
-.testemonials button:hover,
-.footer .footer-email button:hover{
-    background-color: var(--light-red) !important;
-}
-.footer li a:hover{
-    color: var(--light-red);
-}
-.footer .footer-social-media img:hover{
-    filter: invert(47%) sepia(41%) saturate(800%) hue-rotate(320deg) brightness(106%) contrast(95%);
-}

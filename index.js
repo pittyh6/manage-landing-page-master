@@ -1,5 +1,7 @@
 //jshint esversion:6
 
+//----------------------------------------------------------------
+/*Hamburguer menu*/
 $(function(){
     $(".toggle").on("click", function(){
         if($(".item").hasClass("active")){
@@ -12,9 +14,9 @@ $(function(){
         }
     });
 });
-
+//----------------------------------------------------------------
+//----------------------------------------------------------------
 const screenWidth = screen.width;
-
 /*carrossel*/
     function moveCarrossel(){       
         let time = 2000,
@@ -94,5 +96,27 @@ const screenWidth = screen.width;
     }
     document.addEventListener("DOMContentLoaded", ready);
 
+//----------------------------------------------------------------
+//----------------------------------------------------------------
+/*Email validations */
+function validateEmail(){
+    const resultEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/
+    const email = $('#email').val();
+    const emailInput = $('#email')
+    const resultMessage = $('#result-email');
+    console.log(email)
+    emailInput.css('color', 'black');  
+    resultMessage.css('display', 'none');
+
+    if(resultEmail.test(email)){ 
+        emailInput.css('color', 'green'); 
+    }else{
+        resultMessage.css('display', 'block');
+        emailInput.css('color', 'red');   
+    }
+}
+
+//----------------------------------------------------------------
+//----------------------------------------------------------------
     //window.addEventListener("load", start)
 /**/
